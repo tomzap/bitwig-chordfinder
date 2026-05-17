@@ -1,3 +1,7 @@
+// Copyright 2026 Tomasz Zapalski (https://github.com/tomzap/)
+// Licensed under the PolyForm Noncommercial License 1.0.0.
+// See the LICENSE file in the project root for full license information.
+
 package bitwig.tzap;
 
 import java.util.UUID;
@@ -65,8 +69,7 @@ public class ChordDetectorExtensionDefinition extends ControllerExtensionDefinit
 
    @Override
    public String getHelpFilePath() {
-      // TODO: where is this used?
-      return "https://github.com/tomzap/bitwig-timecalc/blob/main/README.md#timecalc";
+      return "https://github.com/tomzap/bitwig-chordfinder/blob/main/README.md";
    }
 
    @Override

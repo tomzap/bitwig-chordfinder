@@ -1,8 +1,8 @@
-# Chord Detector
+# Chord Detector (Bitwig extension)
 
 A simple chord detector as a controller extension for [Bitwig Studio](https://www.bitwig.com). 
 I have been creating chord progressions but I usually forget to write down what the progression is.
-The next time I open the project I have to open track with a pregression and figure out from MIDI notes
+So the next time I open the project I have to open track with a pregression and figure out from MIDI notes
 what chords I was playing.
 Well, not any more. This extension allows me to choose a track, play song and it will detect all the chords for me!
 I just have to note them down, very useful.
@@ -43,3 +43,14 @@ prints the chord if it can recognize it. That's it!
 ## Compability
 
 I have written this extension for Bitwig 5, it may not work for previous versions. Unfortunatelly I cannot test is for Bitwig 6 or higher. Let me know if it works!
+
+## 💰 License
+
+This program is completely free for personal use under the PolyForm Noncommercial License. 
+
+If this tool saved you time, made your life easier, or you just want to show some love, throwing a little gratitude money my way is deeply appreciated:
+
+*   [Buy Me a Coffee](https://buymeacoffee.com/tzap)
+*   [GitHub Sponsors](https://github.com/sponsors/tomzap)
+
+Thank you for supporting independent developers!

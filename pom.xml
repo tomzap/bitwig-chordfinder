@@ -96,8 +96,8 @@
 						</goals>
 						<configuration>
 							<sourceFile>${project.build.directory}/${project.build.finalName}.jar</sourceFile>
-							<!--destinationFile>${user.home}/Documents/Bitwig Studio/Extensions/${project.artifactId}.bwextension</destinationFile-->
-							<destinationFile>C:/Users/t2ap/OneDrive/Dokumenty/Bitwig Studio/Extensions/${project.artifactId}.bwextension</destinationFile>
+							<destinationFile>${user.home}/Documents/Bitwig Studio/Extensions/${project.artifactId}.bwextension</destinationFile>
+							<!-- <destinationFile>C:/Users/t2ap/OneDrive/Dokumenty/Bitwig Studio/Extensions/${project.artifactId}.bwextension</destinationFile> -->
 						</configuration>
 					</execution>
 				</executions>

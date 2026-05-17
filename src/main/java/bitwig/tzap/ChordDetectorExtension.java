@@ -48,11 +48,11 @@ public class ChordDetectorExtension extends ControllerExtension {
       for (int i = 0; i < v.length; i++) {
          midiNotes[i] = v[i].pitch();
       }  
-      Chord chord = Chord.fromNotes(midiNotes);
-      if (chord == null) {
-         chordText.set("Unknown");
-      } else {
+      try {
+         Chord chord = Chord.fromNotes(midiNotes);
          chordText.set(chord.getName());
+      } catch (Exception e) {
+         chordText.set("Unknown");
       }
       return null;
    }
